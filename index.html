@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>xD</title>
+    <title>Ficha 2 Inputs</title>
 </head>
+
 <body>
-    xDD
+
+
+    <h3>Exercício 1</h3>
+    <form>
+        Nome: <input type="text" name="Nome"> &nbsp; Apelido: <input type="text" name="Apelido">
+        <button type="reset">Reset</button> <button type="submit">Submeter</button>
+    </form>
+
+    <h3>Exercício 2 </h3>
+    <form>
+        <fieldset>
+            <legend>Nome e Apelido</legend>
+            Nome: <input type="text" name="Nome">
+            <br><br>Apelido: <input type="text" name="Nome">
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Idade
+            </legend>
+            Idade <input type="number" name="Idade">
+        </fieldset>
+        <button type="reset">Reset</button> <button type="submit">Submeter</button>
+    </form>
+
+    <h3>Exercício 4</h3>
+    <form>
+        <table border="1">
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Apelido
+                    </td>
+                <th>
+                    Idade
+                </th>
+                <th>
+                    Ações
+                </th>
+            <tr>
+                <th>
+                    <input type="text" name="Nome">
+                </th>
+                <th>
+                    <input type="text" name="Apelido">
+                </th>
+                <th>
+                    <input type="number" name="Idade">
+                </th>
+                <th>
+                    <button type="reset">Reset</button> <button type="submit">Submeter</button>
+                </th>
+            </tr>
+
+            </tr>
+        </table>
+    </form>
+    </form>
+    <h3>Exercício 5</h3>
+    <form>
+        Nome: <input type="text" name="Nome" value="Diogo"> &nbsp; Apelido: <input type="text" name="Apelido" value="Dias">
+        <button type="reset">Reset</button> <button type="submit">Submeter</button>
+    </form>
+
+    <h3>Exercício 6</h3>
+    <form>
+        Profissão:
+        <br><input type="radio" name="profissao" value="Professor" id="Prof">Professor
+        <br>
+        <input type="radio" name="profissao" value="Estudante">Estudante
+        <br>
+        <input type="radio" name="profissao" value="Outro">Estudante
+        <br><br><button type="reset">Reset</button> <button type="submit">Submeter</button>
+    </form>
+    
+    <h3>Exercício 7</h3>
+    <form>
+        Nome: <input type="text" name="Nome"> &nbsp; Apelido: <input type="text" name="Apelido" disabled>&nbsp; Idade: <input type="number" maxlength="2">
+        <br><br><button type="reset">Reset</button> <button type="submit">Submeter</button>
+    </form>
 </body>
+
 </html>
