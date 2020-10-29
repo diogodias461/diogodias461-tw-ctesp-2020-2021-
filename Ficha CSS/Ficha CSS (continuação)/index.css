@@ -1,0 +1,25 @@
+#p1{
+    margin-bottom: 100px !important;
+}
+
+#p3{
+    border-style: dotted;
+    border-radius: 1px;
+    border-color: red;
+    background-color: red;
+}
+
+#p4{
+    border-radius: 1px;
+    border-color: red;
+    background-color: red;
+    max-width: 50%;
+}
+
+#p5{
+    border-style: dotted;
+    border-radius: 1px;
+    border-color: red;
+    background-color: red;
+    background: linear-gradient(to right, red 50%, white 50%);
+}
